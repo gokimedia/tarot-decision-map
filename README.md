@@ -49,4 +49,14 @@ Access and crawlability checks on September 12, 2026:
 
 The four viewable resources have descriptive links and matching `ItemList` entries. Softr and Stitch are retained only in a clearly labeled access-notes section, not described as working resources or included in that list. Only this GitHub Pages site's own URLs belong in its sitemap. No destination settings were changed and no Google indexing was claimed or verified.
 
+## Mixo introduction, Readdy planner and Airo access note
+
+Checked September 13, 2026 (Europe/Istanbul):
+
+- [DeckAura Tarot Journal Guide on Mixo](https://deckau-ti2v70.mixo.io) is a short Turkish-language introduction to one-card reflection, situation/challenge/advice and journaling, with an email signup. It is not presented here as a complete workbook or interactive card-drawing tool. The homepage returned HTTP 200, had a self-referencing canonical, and had no noindex in the returned HTML or HTTP header. Its robots.txt allows `/` and declares a sitemap. The visible resource link identifies the destination language with `hreflang="tr"` and uses a Turkish anchor.
+- [DeckAura Reflection Planner on Readdy](https://readdy.cc/preview/b2245a00-c0f1-4b8b-80c7-08cf1b611ddf/13858978/) is an accessible preview with fixed-rule recommendations based on focus and time. The daily-theme / one-minute path produced a one-card reflection plan in the browser. The page includes one-card and three-card guidance, a notebook outline and a copy-plan control; it does not draw cards. HTTP 200 and relevant title/description were observed, with no noindex in the returned HTML or HTTP header. No canonical was present in that response. The robots.txt request failed with a TLS error, and a browser check was blocked by the client; its crawl rules remain unverified. No certificate or browser protections were bypassed.
+- [Airo app preview](https://63r5e94qrw.preview.c40.airoapp.ai/) returned HTTP 401 for both the homepage and robots.txt. The browser explicitly states that the preview is private and requires an owner-provided share link or published app link. No app-content or functionality claim is made. The supplied URL is retained in the access-notes section and excluded from the viewable-resource `ItemList`.
+
+Mixo and Readdy have descriptive resource cards and matching structured-data entries. Internal links connect the main page to their resource sections. The supplied preview URLs were preserved; no alternate production URL was guessed. Google indexing has not been requested through Search Console or verified, and linking cannot make a private destination public.
+
 Tarot can support reflection and journaling, but it is not a substitute for medical, legal, financial, or mental-health advice.
