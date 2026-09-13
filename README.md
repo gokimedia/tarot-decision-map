@@ -59,4 +59,11 @@ Checked September 13, 2026 (Europe/Istanbul):
 
 Mixo and Readdy have descriptive resource cards and matching structured-data entries. Internal links connect the main page to their resource sections. The supplied preview URLs were preserved; no alternate production URL was guessed. Google indexing has not been requested through Search Console or verified, and linking cannot make a private destination public.
 
+## Kleap practice guide and Landingsite content mismatch
+
+Checked September 13, 2026:
+
+- [DeckAura Tarot Practice Guide on Kleap](https://deckaura-tarot-practice-guide.kleap.io/) provides seven notebook prompts, one-card reflection, a situation/challenge/advice layout and a short FAQ. The public HTML and browser rendering both contain the guide. HTTP 200, a self-referencing canonical and `index,follow` were observed; no `X-Robots-Tag` was returned. The complete robots.txt allows the homepage for general search crawlers and declares `sitemap-index.xml`. A resource card and matching `ItemList` entry were added, together with a contextual link in the main page's review step. These checks establish no obvious access/indexing directive blocker, not inclusion in Google's index.
+- The supplied Landingsite host, `dc-l8boo8so.share.landingsite.dev`, displayed **dc — Strategy, Advisory & Business Solutions**, covering business strategy, financial advisory, compliance and operations rather than DeckAura or tarot. Its homepage returned HTTP 200 with `X-Robots-Tag: noindex`, and the footer identifies it as a preview. It has not been added to the public tarot resource collection or structured data. A corrected DeckAura share/published URL is needed before a relevant resource link can be placed. No changes were made to the destination site.
+
 Tarot can support reflection and journaling, but it is not a substitute for medical, legal, financial, or mental-health advice.
